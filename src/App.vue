@@ -4,20 +4,13 @@
 
 <template>
   <div>
-    <a href="https://router.vuejs.org/zh/guide/essentials/passing-props.html" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue"/>
+    <a href="https://pinia.vuejs.org/zh/introduction.html" target="_blank">
+      <img src="./assets/pinia.svg" class="logo vue"/>
     </a>
-    <h2>将 props 传递给路由组件</h2>
-    <p>1 组件中的路由参数和prop名称必须保持一致</p>
-    <p>2 路由配置是需要添加参数：props: true</p>
+    
+    <h2>pinia -入门</h2>
+    
   </div>
-
-  
-  <div class="router-link">
-    <router-link to="/user/james">james</router-link>
-    <router-link to="/user/kobe">kobe</router-link>
-  </div>
-  <router-view></router-view>
 
 </template>
 
