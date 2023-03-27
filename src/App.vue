@@ -16,7 +16,7 @@
   <div>
     <h2>pinia - action</h2>
     <a href="https://pinia.vuejs.org/zh/core-concepts/actions.html" target="_blank">
-      <img src="./assets/pinia.svg" class="logo vue"/>
+      <img src="./assets/pinia.svg" class="logo"/>
     </a>
     <div>
       <button @click="store.count++">count.state++</button>
@@ -44,9 +44,6 @@
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
 }
 button{
   margin: 0 12px;
